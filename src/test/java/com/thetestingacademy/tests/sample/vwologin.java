@@ -1,25 +1,28 @@
-package com.thetestingacademy;
+package com.thetestingacademy.tests.sample;
 
+import com.thetestingacademy.driver.drivermanager;
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.Assert;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class vwologin {
+
+    @BeforeTest
+    public void setup(){
+        drivermanager.init();
+    }
 
     @Description("Verify that with invalid email, pass, error message is shown on the app.vwo.com")
     @Test
     public void testvwologinnegative()  {
 
-        EdgeOptions edgeOptions = new EdgeOptions();
-        edgeOptions.addArguments("--start-maximized");
-
-        WebDriver driver = new EdgeDriver(edgeOptions);
+        WebDriver driver = drivermanager.getDriver();
         driver.get("https://app.vwo.com/#/login");
 
         Assert.assertEquals(driver.getTitle(), "Login - VWO");

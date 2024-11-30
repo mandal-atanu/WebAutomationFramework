@@ -4,15 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2638beda-ee07-478b-b02f-989bec12a264" name="Changes" comment="" />
+    <list default="true" id="2638beda-ee07-478b-b02f-989bec12a264" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/driver/drivermanager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/driver/drivermanager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/utilis/PropertyReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/utilis/PropertyReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/sample/vwologin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/sample/vwologin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-qa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-qa.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/mandal-atanu/WebAutomationFramework.git",
+    "accountId": "84ffd9fc-63cb-48a4-a209-411563851d70"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
 }]]></component>
@@ -26,10 +51,57 @@
   "keyToString": {
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.vwologin.executor": "Run",
+    "TestNG.vwologin.testvwologinnegative.executor": "Run",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
+  <component name="RunManager" selected="TestNG.vwologin">
+    <configuration name="vwologin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.tests.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.tests.sample.vwologin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vwologin.testvwologinnegative" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.tests.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.tests.sample.vwologin" />
+      <option name="METHOD_NAME" value="testvwologinnegative" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.vwologin" />
+        <item itemvalue="TestNG.vwologin.testvwologinnegative" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
